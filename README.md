@@ -5,14 +5,7 @@
 - [Dataset Information](#dataset-information)
 - [Objective](#objective)
 - [Key Findings](#key-findings)
-- [Project Structure](#project-structure)
-- [Steps to Run the Project](#steps-to-run-the-project)
-  - [1. Install Dependencies](#1-install-dependencies)
-  - [2. Running the Analysis](#2-running-the-analysis)
-  - [3. Dataset Cleaning](#3-dataset-cleaning)
-  - [4. Visualizations](#4-visualizations)
-- [Conclusion](#conclusion)
-- [Dependencies](#dependencies)
+- [Business Insights Summary](#business-insights-summary)
 
 ---
 
@@ -70,5 +63,33 @@ The primary goal of this project is to:
    - SMS reminders help reduce no-show rates, but many patients still miss appointments even after receiving a reminder.
 
 ---
+
+## Business Insights Summary
+
+### 1. **Neighbourhood Influence**:
+   - Certain neighborhoods have significantly higher appointment volumes. For example, patients from some neighborhoods (like "JARDIM CAMBURI") tend to have higher attendance, while others experience more no-shows. Targeting specific areas for follow-up reminders or personalized communication could reduce no-show rates.
+
+### 2. **Day of the Week**:
+   - No-shows tend to be more common towards the end of the week (especially Fridays). Hospitals might consider adjusting scheduling practices, such as offering flexible time slots or sending reminders earlier in the week.
+
+### 3. **Scheduling and Appointment Time Gap**:
+   - The larger the time gap between scheduling and the appointment, the more likely a patient is to miss the appointment. Scheduling closer to the appointment date or implementing follow-up systems for long-gap appointments could help mitigate this.
+
+### 4. **Age Group**:
+   - Younger patients (ages 0-10 and 11-20) are more likely to miss their appointments compared to older groups. Appointment policies for younger patients (such as rescheduling flexibility or frequent reminders) could help reduce no-shows.
+
+### 5. **Scholarship (Financial Aid)**:
+   - Patients who receive financial aid (under a scholarship) tend to miss more appointments. Offering additional support, like transportation assistance or better access to scheduling options, could benefit these patients.
+
+### 6. **Health Condition Impact**:
+   - **Hypertension and Diabetes**: Patients with these conditions tend to have lower no-show rates, likely due to the need for regular monitoring.
+   - **Alcoholism and Handicap**: These conditions show a slightly higher no-show rate, indicating that additional support may be necessary for these groups.
+
+### 7. **SMS Notifications**:
+   - SMS reminders appear to have some effect on reducing no-shows, but a significant number of patients still miss appointments even after receiving reminders. Combining SMS with other strategies (like phone calls or automated rescheduling systems) could yield better results.
+
+### 8. **Correlation Insights**:
+   - The correlation heatmap shows low correlations between most health conditions and no-show rates, meaning that no single health factor has a dominating impact. However, there is a slight positive correlation between receiving an SMS and reduced no-shows.
+
 
 
